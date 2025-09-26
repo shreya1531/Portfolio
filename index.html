@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shreya Ravi Shastri — MCA Portfolio</title>
+
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <meta name="description" content="Shreya Ravi Shastri — MCA graduate, Full-Stack Web Developer. Portfolio with projects, internship, skills and certificates.">
+  <meta name="author" content="Shreya Ravi Shastri">
+
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-container">
+      <div class="brand" style="color: white;">
+        <span class="br-left">&lt;</span>
+        <span>Shreya Shastri</span>
+        <span class="br-left">/&gt;</span>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#internship">Internship</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <!-- mobile reveal -->
+      <button class="btn btn-outline-secondary hamburger" id="toggleNav" aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <div class="hero-inner container">
+      <!-- PHOTO: replace 'assets/profile.jpg' with your real photo -->
+      <div class="hero-photo" data-aos="fade-up" data-aos-delay="150">
+        <img src="assets/profile.jpg" alt="Shreya Photo">
+      </div>
+
+      <div class="hero-copy" data-aos="fade-right" data-aos-delay="250">
+        <span class="pill">MCA — Class of 2025</span>
+        <h1>Hi, I'm <span style="color:#fff">Shreya Ravi Shastri</span></h1>
+        <p class="lead">MCA graduate (CGPA: 9.14). Full-stack web developer — I build interactive web apps using JavaScript, React, Node, and Firebase. Passionate about clean UI, real-time systems and developer tooling.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="assets\Updated resume-Shreya.pdf" download>Download Resume <i class="bi bi-download ms-1"></i></a>
+        </div>
+
+        <div style="margin-top:16px;color:rgba(255,255,255,.9)">
+          <small>📫 <a href="mailto:shreyashastri12@gmail.com" style="color:inherit;text-decoration:underline">shreyashastri12@gmail.com</a> • ☎️ +91 9353994508</small>
+          <div style="margin-top:8px;">
+            <a href="https://www.linkedin.com/in/shreya-shastri-390188275" target="_blank" style="color:rgba(255,255,255,.95);margin-right:10px">LinkedIn <i class="bi bi-linkedin ms-1"></i></a>
+            <a href="https://github.com/shreya1531" target="_blank" style="color:rgba(255,255,255,.95);">GitHub <i class="bi bi-github ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About</h2>
+        <p class="section-sub">A quick intro and the academic snapshot.</p>
+      </div>
+
+      <div class="about-grid" data-aos="fade-up" data-aos-delay="120">
+        <div>
+          <div class="about-card">
+            <p style="font-size:1rem;color:var(--muted)">I am a postgraduate in Computer Applications (MCA) with a strong academic record (CGPA 9.14/10). I enjoy building full-stack web apps, real-time systems, and clean user interfaces. I practice continuous learning and took internships to build production-level features and improve collaboration.</p>
+
+            <div class="about-bullets" style="margin-top:14px;">
+              <div><strong>Core</strong>: Web Development, Java, Python, MySQL, React.js</div>
+              <div><strong>Interests</strong>: Real-time apps, UX, Cloud (Firebase), DevOps basics</div>
+              <div><strong>Availability</strong>: Open to full-time roles & internships</div>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="about-card">
+            <h5 style="margin-bottom:10px">Academic Snapshot</h5>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h5>🎓 MCA — Cambridge Institute of Technology (2025)</h5>
+                <div class="muted">CGPA: 9.14 / 10</div>
+              </div>
+              <div class="timeline-item">
+                <h5>📘 Key Coursework</h5>
+                <div class="muted">Web Dev, Data Structures, DBMS, Cloud Basics, Machine Learning (intro)</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-title">
+        <h2>Education</h2>
+        <p class="section-sub">Formal education & important credentials</p>
+      </div>
+
+      <div class="about-card" data-aos="fade-up">
+        <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap">
+          <div style="flex:1">
+            <h5 style="color:var(--accent)">Master of Computer Applications (MCA)</h5>
+            <div class="muted">Cambridge Institute of Technology — 2025</div>
+          </div>
+          <div style="min-width:200px;text-align:right">
+            <div style="font-weight:700;font-size:1.05rem">CGPA: 9.14 / 10</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-card" data-aos="fade-up" style="margin-top: 40px;">
+        <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap">
+          <div style="flex:1">
+            <h5 style="color:var(--accent)">Bachelor of Science(BSc)</h5>
+            <div class="muted">J S S Arts Commerce and S K Gubbi Science College</div>
+          </div>
+          <div style="min-width:200px;text-align:right">
+            <div style="font-weight:700;font-size:1.05rem">Percentage: 72.08 / 100</div>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p class="section-sub">Languages, frameworks & tools I use frequently</p>
+      </div>
+
+      <div class="skills-grid" data-aos="fade-up" data-aos-delay="120">
+        <!-- Use small icons in real site; here we show names -->
+        <div class="skill-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLL2_E99pYiaTPnkYLjXMIkyvXdGHwwSREEw&s" alt="Java" style="height:46px;display:block;margin:0 auto"><div class="skill-name">Java</div></div>
+        <div class="skill-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV__-bAL1epQyK5FPamiU0DUwiJopywA1tDA&s" alt="Python" style="height:46px;display:block;margin:0 auto"><div class="skill-name">Python</div></div>
+        <div class="skill-card"><img src="assets\skills\c.png" alt="C" style="height:46px;display:block;margin:0 auto"><div class="skill-name">C</div></div>
+        <div class="skill-card"><img src="assets\skills\sql.png" alt="SQL" style="height:46px;display:block;margin:0 auto"><div class="skill-name">SQL</div></div>
+        <div class="skill-card"><img src="assets\skills\html.png" alt="HTML" style="height:46px;display:block;margin:0 auto"><div class="skill-name">HTML</div></div>
+        <div class="skill-card"><img src="assets\skills\css.png" alt="CSS" style="height:46px;display:block;margin:0 auto"><div class="skill-name">CSS</div></div>
+        <div class="skill-card"><img src="assets\skills\js.png" alt="JavaScript" style="height:46px;display:block;margin:0 auto"><div class="skill-name">JavaScript</div></div>
+        <div class="skill-card"><img src="assets\skills\react.png" alt="React" style="height:46px;display:block;margin:0 auto"><div class="skill-name">React.js</div></div>
+        <div class="skill-card"><img src="assets\skills\node.png" alt="Node" style="height:46px;display:block;margin:0 auto"><div class="skill-name">Node.js</div></div>
+        <div class="skill-card"><img src="assets\skills\git&github.png" alt="GitHub" style="height:46px;display:block;margin:0 auto"><div class="skill-name">Git & GitHub</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p class="section-sub">Selected projects — brief, useful and demo-ready</p>
+      </div>
+
+      <div class="projects-grid" data-aos="fade-up" data-aos-delay="120">
+        <article class="project">
+          <div class="proj-banner"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHdOmjilZZJF2d_jcPPwevu7d0Tg7CtXgZxw&s" alt="Cruise banner" style="height:100%;width:100%;object-fit:cover"></div>
+          <div class="proj-body">
+            <h5>Cruise Ship Management System</h5>
+            <h6>Apr 2025-Jul 2025 </h6>
+            <p>Role-based management system (Admin, Manager, Head Cook, Supervisor) with Firebase Authentication & Firestore and real-time service booking. Deployed on GitHub Pages.</p>
+            <div style="margin-top:12px"><a href="https://github.com/shreya1531/Cruise-Ship-Management.git" class="btn btn-sm" style="background:var(--accent);color:#fff">View Code</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="proj-banner"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT77lMmJDfMTMDjtAi8SwjaZrBtPRzbfDHE5g&s" alt="Auction banner" style="height:100%;width:100%;object-fit:cover"></div>
+          <div class="proj-body">
+            <h5>Real-Time Auction System</h5>
+            <h6>Jul 2025-Present</h6>
+            <p>Live bidding platform with WebSocket updates (Socket.io), Express.js backend and MongoDB. Designed role-based dashboards and scalable APIs.</p>
+          <div style="margin-top:12px"><a href="https://github.com/shreya1531/Real-time-Auction-System.git" class="btn btn-sm" style="background:var(--accent);color:#fff">View Code</a></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="proj-banner"><img src="assets\resumephoto.png" alt="Portfolio banner" style="height:100%;width:100%;object-fit:cover"></div>
+          <div class="proj-body">
+            <h5>Interactive Resume</h5>
+            <p>Advanced portfolio site with large hero, animations, certificate gallery and downloadable resume. Built with HTML, CSS, JS and GSAP/AOS for animations.</p>
+            <div style="margin-top:12px"><a href="https://shreya1531.github.io/Portfolio/" class="btn btn-sm" style="background:var(--accent);color:#fff">Live Site</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNSHIP -->
+  <section id="internship">
+    <div class="container">
+      <div class="section-title">
+        <h2>Internship</h2>
+        <p class="section-sub">Professional training & hands-on experience</p>
+      </div>
+
+      <div class="about-card" data-aos="fade-up">
+        <h5 style="color:var(--accent)">Full Stack Web Development Intern — Unified Mentor</h5>
+        <div class="muted">Apr 2025 – Jul 2025</div>
+        <p style="margin-top:12px;color:var(--muted)">Contributed to end-to-end web application development using modern frameworks. Worked across front-end UI design, backend integration, and version control. Collaborated in an Agile team to deliver project milestones.</p>
+        <button class="btn" id="viewCertificateBtn">View Certificate</button>
+      </div>
+    </div>
+
+    <!-- Certificate Modal (hidden initially) -->
+    <div id="certificateModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="closeModalBtn">&times;</span>
+        <img src="assets\Certificates\internship.png" alt="Certificate" class="certificate-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <div class="container">
+      <div class="section-title">
+        <h2>Certificates</h2>
+        <p class="section-sub">Hover a card to zoom — click to open a full preview</p>
+      </div>
+
+      <div class="cert-grid" data-aos="fade-up" data-aos-delay="120">
+       
+        <div class="cert-card" data-cert-src="assets\Certificates\python.png" onclick="openCert(this)">
+          <img src="assets\Certificates\python.png" alt="Python Certificate">
+          <div class="cert-title">Joy of Computing using Python — NPTEL</div>
+        </div>
+
+        <div class="cert-card" data-cert-src="assets\Certificates\aws.png" onclick="openCert(this)">
+          <img src="assets\Certificates\aws.png" alt="DevOps Certificate">
+          <div class="cert-title">Linux, AWS & DevOps — Apponix Academy</div>
+        </div>
+
+        <div class="cert-card" data-cert-src="assets\Certificates\webdevfundamentals.png" onclick="openCert(this)">
+          <img src="assets\Certificates\webdevfundamentals.png" alt="Full Stack Certificate">
+          <div class="cert-title">Web Development Fundamentals</div>
+        </div>
+        <div class="cert-card" data-cert-src="assets\Certificates\participation.jpg" onclick="openCert(this)">
+          <img src="assets\Certificates\participation.jpg" alt="Full Stack web dev masterclass completion Certificate">
+          <div class="cert-title">Full stack Web Development Master class completion Certificate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL for Certificates -->
+  <div class="modal fade" id="certModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content" style="background:transparent;border:none">
+        <div class="modal-body d-flex justify-content-center align-items-center">
+          <img id="certModalImg" class="modal-img" src="" alt="Certificate Preview">
+        </div>
+        <div style="text-align:center;margin-bottom:18px">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+          <a id="certDownload" href="#" download class="btn btn-primary ms-2">Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p class="section-sub">Get in touch — available for internships and full-time roles</p>
+      </div>
+
+      <div class="contact-card" data-aos="fade-up">
+        <form action="https://formspree.io/f/mzzjzrrd" method="POST">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input name="name" class="form-control" placeholder="Name *" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" name="email" class="form-control" placeholder="Email *" required>
+            </div>
+            <div class="col-12">
+              <input name="subject" class="form-control" placeholder="Subject *" required>
+            </div>
+            <div class="col-12">
+              <textarea name="message" class="form-control" rows="5" placeholder="Message *" required></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </div>
+          </div>
+        </form>
+
+        <div class="socials" style="margin-top:18px">
+          <a href="https://www.linkedin.com/in/shreya-shastri-39018827" target="_blank" class="btn btn-outline-secondary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/shreya1531" target="_blank" class="btn btn-outline-secondary ms-2"><i class="bi bi-github"></i> GitHub</a>
+          <a href="assets\Updated resume-Shreya.pdf" download class="btn btn-outline-secondary ms-2"><i class="bi bi-file-earmark-pdf"></i> Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <small>© <strong>Shreya Ravi Shastri - MCA</strong> </small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <!-- Bootstrap JS, AOS & tiny script -->
+   <script src="script.js"></script>
+</body>
+</html>
